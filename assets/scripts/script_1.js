@@ -22,8 +22,10 @@ function donutChart() {
         margin = {top: 10, right: 10, bottom: 10, left: 10},
         
         
-        /*color changes: Bondi Blue -> brick red, light cyan -> yellow-green, light green-cyan -> carolina blue */
-        colour = d3.scaleOrdinal().range(["#CF4247", "#9ECF2B", "#9BBACF", "#cbe0a7", "#f2db84", "#f7af72", "#FF9B42"]), // colour scheme
+        /*color changes: i) Bondi Blue -> brick red, ii) light cyan -> yellow-green, iii) light green-cyan -> carolina blue, 
+        iv) light green -> Turquoise, v) light yellow -> magenta, vi) light orange -> blue-magenta, 
+        vii) medium light orange -> light magenta */
+        colour = d3.scaleOrdinal().range(["#CF4247", "#9ECF2B", "#9BBACF", "#2BC4CF", "#9841ba", "#2c099b", "#ff4deb"]), // colour scheme
         
         variable, // value in data that will dictate proportions on chart
         category, // compare data by
