@@ -1,5 +1,12 @@
 /* Stores all CSS variable */
 :root {
+    /*my additions*/
+    --brick red: #CF4247;
+    --yellow-green: #9ECF2B;	
+    --carolina blue: #9BBACF
+    --Turquoise: #2BC4CF 	    
+	    
+	    
     --dark-gray: #212323;
     --dark-purple: #190f27;
     --transluscent-dark-purple: rgba(25, 15, 39, 0.87);
