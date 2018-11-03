@@ -8,9 +8,12 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://petrastoik.github.io/D3js-US-educational-attainment/" rel="stylesheet">
-	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script type="text/javascript" src="mouseover_sound.js"></script>
-
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 	
 </head>
   <header>
@@ -24,15 +27,15 @@
         </nav>
     </header>
 <body>
-    <h1 class="title"  onmouseover="playclip('Educational Attainment in the United States')</h1>
+    <h1 class="title"  onmouseover="responsiveVoice.speak('Educational Attainment in the United States')</h1>
         
 	
 	<p><br></p>
-    <h2 class="subtitle" onmouseover="playclip(Nation-Wide Education Level of Population in Schooling)</h2>
+    <h2 class="subtitle" onmouseover="responsiveVoice.speak(Nation-Wide Education Level of Population in Schooling)</h2>
 	
     <svg id="pie-chart" width="960" height="450"></svg><a name="regional"></a>
     <p><br><br><br></p>
-    <h2 class="subtitle" onmouseover="playclip(Educational Attainment: Region-level Breakdown of University Students)</h2>
+    <h2 class="subtitle" onmouseover="responsiveVoice.speak(Educational Attainment: Region-level Breakdown of University Students)</h2>
 
     <form id="tree-form">
         <div class="radio-toolbar">
@@ -50,7 +53,7 @@
     <div id="chart"></div>
 	<a name="state"></a>
     <p><br><br></p>
-    <h2 class="subtitle" onmouseover="playclip(Education Level of Population in Schooling: State-level BreakdownP)</h2>    
+    <h2 class="subtitle" onmouseover="responsiveVoice.speak(Education Level of Population in Schooling: State-level BreakdownP)</h2>    
     
 	
     <form id="stack-form">
