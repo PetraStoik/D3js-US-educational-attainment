@@ -304,5 +304,5 @@ function buildHierarchy(csv) {
       }
     }
   }
-  return root;
+  return chart;
 }
