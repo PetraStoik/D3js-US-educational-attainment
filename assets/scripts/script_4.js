@@ -305,4 +305,4 @@ function buildHierarchy(csv) {
     }
   }
   return root;
-};
+}
