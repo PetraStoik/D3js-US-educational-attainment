@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title>Educational Attainment in the United States</title>
     <link href="assets/stylesheets/style.css" rel="stylesheet"/>
-    <link href="assets/stylesheets/style2.css" rel="stylesheet"/>	
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://petrastoik.github.io/D3js-US-educational-attainment/" rel="stylesheet">
@@ -13,7 +12,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script src="//d3js.org/d3.v3.min.js"></script>
     <script type="text/javascript" src="mouseover_sound.js"></script>
     <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 	
@@ -29,16 +27,7 @@
         </nav>
     </header>
 <body>
-   <div id="main">
-      <div id="sequence"></div>
-      <div id="chart">
-        <div id="explanation" style="visibility: hidden;">
-          <span id="percentage"></span><br/>
-          of visits begin with this sequence of pages
-        </div>
-      </div>
-    </div>
-	
+  
     <h1 class="title"  onmouseover="responsiveVoice.speak('Educational Attainment in the United States')</h1>
         
 	
@@ -79,11 +68,6 @@
     <div>
         <svg id="stacked-bar-chart"></svg>
     </div>
-<script type="text/javascript" src="sequences.js"></script>
-<script type="text/javascript">
-      // Hack to make this example display correctly in an iframe on bl.ocks.org
-d3.select(self.frameElement).style("height", "700px");
-    
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="assets/scripts/script_4.js"></script>
